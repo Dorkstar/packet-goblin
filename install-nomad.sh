@@ -20,7 +20,7 @@ cd ~/packet-goblin
 curl -sO https://raw.githubusercontent.com/Dorkstar/packet-goblin/main/nomad.py
 
 # Prompt for Commander IP
-read -p "Enter Commander IP (IP of SBC that will play role of commander): " CMD_IP
+read -p "Enter Commander IP (Tailscale IP): " CMD_IP
 
 # Create systemd service
 SERVICE_FILE="/etc/systemd/system/nomad.service"
